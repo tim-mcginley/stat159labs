@@ -11,7 +11,7 @@
 
 
 \section{Abstract}
-The goal of this homework assignment is to reproduce the primary findings (regression, charts, and tables) on pages 59-71 of **An Introduction to Statistical Learning** by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani.
+The goal of this homework assignment is to reproduce the primary findings (regression, charts, and tables) on pages 59-71 of \emph{An Introduction to Statistical Learning} by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani.
 
 
 \section{Introduction}
@@ -21,8 +21,8 @@ Every time a company produces something new, it has a tought decision to make.  
 The data, located in a file called \texttt{data/Advertising.csv} contains information about the televison budgets, sales figures, and a few unused variables.  The entries for the television budgets are in thousands of dollars, while the figures for sales are in thousands of units sold. Overall, 200 markets are represented, and all 200 have extant information for the television budget and sales. 
 
 \section{Methodology}
-To conduct the analysis, first the data was loaded from \texttt{Advertising.csv} and the variables of interest (``TV'' for TV ad budget and "Sales" for units sold) were summarized. Summaries can be found in 
-`hw02/data/eda-output.txt`, and histograms of both variables can be can be found in `hw02/images/`.  
+To conduct the analysis, first the data was loaded from \texttt{Advertising.csv} and the variables of interest (``TV'' for TV ad budget and ``Sales'' for units sold) were summarized. Summaries can be found in 
+\texttt{data/eda-output.txt}, and histograms of both variables can be can be found in \texttt{images/}.  
 
 To better understand how these two variables might relate to one another, I performed a simple linear regression analysis with the data.  The general idea is that we imagine changes one variable, in this case TV ad budgets, affects the beget changes in another variable, here sales figures. These are called the independent and dependent variables, respectively.  
 
@@ -37,7 +37,7 @@ Our linear regression analysis produced the results that appear in the following
 \begin{tabular}{|l|r|r|r|r|}
  & Estimate & Std. Error & t-value & Pr(>ItI) \\ \hline
 intercept & 7.033 & 0.458 & 15.36 & 7.033 \\
-TV ($(\beta_1)$) & 0.048 & 0.003 & 17.668 & 0\\
+TV ($\beta_1$) & 0.048 & 0.003 & 17.668 & 0\\
 \end{tabular}
 \caption{Regression Information}
 \end{table}
@@ -63,9 +63,9 @@ $F$-stat & 312.145 \\
 \caption{Goodness of Fit Statistics}
 \end{table}
 
-Residual sum of squares, or *RSS*, is a statistic computed using the forumula $RSS = \sum_{i=1}^n (y_i - f(x_i))^2$, where the $y_i$ values are the true value of the sales for a given markey while the $f(x_i)$ values are the expected sales based on the TV ad budget according to our model.  The least-squares fit is the fit that finds $\beta_0$ and $\beta_1$ so as to make the RSS as small as possible. 
+Residual sum of squares, or \emph{RSS}, is a statistic computed using the forumula $RSS = \sum_{i=1}^n (y_i - f(x_i))^2$, where the $y_i$ values are the true value of the sales for a given markey while the $f(x_i)$ values are the expected sales based on the TV ad budget according to our model.  The least-squares fit is the fit that finds $\beta_0$ and $\beta_1$ so as to make the RSS as small as possible. 
 
-The $R^2$ statistic is a measure of how closely the data falls along the regression line.  If all data points were perfectly along this line, $R^2 = 1$.  Instead, we have $R^2 = 0.612$
+The $R^2$ statistic is a measure of how closely the data falls along the regression line.  If all data points were perfectly along this line, $R^2 = 1$.  Instead, we have $R^2 = 0.612$.
 
 The F-statistic displayed above is the ratio 
 
@@ -75,6 +75,9 @@ F = \frac{\mbox{Mean Squared Error of }f(x_i) \mbox{values}}
 \end{equation}
 and could be used if desired to asses goodness of fit using an F-test.
 
+\section{Conclusions}
+
+Clearly, the linear regression model fits this data well, but certainly not perfectly. An $R^2$ value of $0.612$ means the line fits the data reasonably well as $0.612 > 0.5$.  This means that for the majority of markets, increasing the TV ad budget for a product by \$1000 will result in an increase in sales of about $0.048$ units. 
 
 
 \end{document}

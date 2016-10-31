@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2016 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2016 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,7 +301,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-<../images/scatterplot-tv-sales.png, id=12, 481.8pt x 481.8pt>
+<../images/scatterplot-tv-sales.png, id=13, 481.8pt x 481.8pt>
 File: ../images/scatterplot-tv-sales.png Graphic file (type png)
 
 <use ../images/scatterplot-tv-sales.png>
@@ -310,11 +310,11 @@ Package pdftex.def Info: ../images/scatterplot-tv-sales.png used on input line
 (pdftex.def)             Requested size: 160.60059pt x 160.59715pt.
  [2 <../images/scatterplot-tv-sales.png>] [3] (./lab9.aux) ) 
 Here is how much of TeX's memory you used:
- 2797 strings out of 493014
- 40105 string characters out of 6133351
+ 2801 strings out of 493014
+ 40137 string characters out of 6133351
  94399 words of memory out of 5000000
- 6279 multiletter control sequences out of 15000+600000
- 20296 words of font info for 47 fonts, out of 8000000 for 9000
+ 6280 multiletter control sequences out of 15000+600000
+ 22780 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,23p,511b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive
@@ -327,11 +327,12 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on lab9.pdf (3 pages, 150437 bytes).
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on lab9.pdf (3 pages, 163540 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  10 words of extra memory for PDF output out of 10000 (max. 10000000)
 
